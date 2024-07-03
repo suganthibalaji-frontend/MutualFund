@@ -1,0 +1,10 @@
+<section>
+  <div class="list-group">
+    <div *ngFor="let symbol of symbols">
+      <app-stocklistitem
+        [symbol]="symbol"
+        (symbolSelected)="onStockSymbolSelected($event)"
+      ></app-stocklistitem>
+    </div>
+  </div>
+</section>

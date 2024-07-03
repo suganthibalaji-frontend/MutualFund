@@ -1,0 +1,7 @@
+.res-text {
+    font-weight: bold;
+    text-align: right;
+}
+.res-block {
+    border-left:2px solid #ccc;
+}

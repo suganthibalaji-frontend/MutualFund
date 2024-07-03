@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item action">Home</li>
+        <li class="breadcrumb-item active">Profit/Loss report</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="chart-content d-flex justify-content-center">
+  <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions">
+  </highcharts-chart>
+</div>

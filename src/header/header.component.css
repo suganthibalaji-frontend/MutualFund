@@ -1,0 +1,14 @@
+
+.header-footer-color{
+    background-color:#0065a1 !important;
+    
+    .nav-link, .nav-link .active {
+        color: #fff !important;
+    }
+    .active {
+        font-weight: bold;
+    }
+    .cursor-pointer {
+        cursor: pointer;
+    }
+}
